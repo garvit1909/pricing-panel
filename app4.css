@@ -1,0 +1,117 @@
+body
+{
+    background-color:#60a0ff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.panel{
+    
+background-color:white;
+    border-radius: 1%;
+    display:flex;
+    padding: 20px 30px;
+    width:100%;
+    max-width: 960px;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align:center;
+    
+
+}
+.block{
+    display:block;
+    font-weight: 700;
+    font-size: 35px;
+    color:#016ff9;
+    margin-top:20px;
+    margin-bottom: 35px;
+}
+.size{
+    height:200px;
+    width:100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+.plan{
+    border-bottom: 1px solid #e1f1ff;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.plan:last-child{
+    border-bottom:none;
+}
+.button{
+    padding:15px 35px;
+    border-radius:10px;
+    margin-top: 10px;
+    background-color: white;
+    color:#60a0ff;
+    border: 1px solid #9dd1ff;
+    text-decoration: none;
+    transition: background-color 300ms ease-in-out;
+}
+.header{
+    color:#888;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+html{
+    font-family:'Open Sans', sans-serif ;
+    line-height: 1.2;
+    box-sizing: border-box;
+    
+}
+.list{
+    border-top: 1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;
+    margin-top:40px ;
+    margin-bottom: 20px;
+    color:#016ff9;
+    font-weight: 550;
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-size: 13px;
+    
+}
+.item{
+padding-top: 20px;
+padding-bottom: 20px;
+
+    border-bottom: 1px solid #e1f1ff;
+}
+.item2{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.button.change{
+    background-color: #4a81d4;
+    color:white;
+}
+.button:hover , .button:focus{
+    background-color:#e1f1ff ;
+}
+.button.change:hover , .button.change:focus{
+background-color: #016ff9;
+}
+.button.change{
+    transition: background-color 200ms ease-in-out;
+}
+@media(min-width:900px) {
+    .panel{
+    flex-direction: row;
+    margin-top: 50px;
+}
+.plan{
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+}
+.plan:last-child{
+    border-right: none;
+}
+}
